@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shopping Mall</title>
+		<!-- font awsome -->
+		<script
+			src="https://kit.fontawesome.com/16cdffc178.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- custome css -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav class="navbar" id="navbar">
+			<div class="navbar-center">
+				<span class="nav-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+				<img src="./images/default1.png" alt="stor logo" />
+				<div class="cart-btn">
+					<span class="nav-icon">
+						<i class="fas fa-cart-plus"></i>
+					</span>
+					<div class="cart-items">0</div>
+				</div>
+			</div>
+		</nav>
+		<!-- end of navbar -->
+		<!-- hero -->
+		<header class="hero">
+			<div class="banner">
+				<h1 class="banner-title">furniture collection</h1>
+				<button class="banner-btn">Shop now</button>
+			</div>
+		</header>
+		<!-- end of hero -->
+		<!-- product -->
+		<section class="products">
+			<div class="section-title">
+				<h2>Our products</h2>
+			</div>
+			<div class="products-center">
+				<!-- single product -->
+
+				<!-- end of single product -->
+			</div>
+		</section>
+		<!-- end of product -->
+		<!-- cart -->
+		<div class="cart-overlay">
+			<div class="cart">
+				<span class="close-cart">
+					<i class="fas fa-window-close"></i>
+				</span>
+				<h2>your cart</h2>
+				<div class="cart-content">
+					<!-- cart item -->
+					<!-- <div class="cart-item"></div> -->
+					<!-- end of cart item -->
+				</div>
+				<div class="cart-footer">
+					<h3>your total : $ <span class="cart-total">0</span></h3>
+					<button class="clear-cart banner-btn">clear cart</button>
+				</div>
+			</div>
+		</div>
+		<!-- end of cart -->
+
+		<!-- like overlay -->
+		<div class="like-overlay">
+			<div class="user-info">
+				<span class="closeUser-Btn"><i class="fas fa-times"></i></span>
+				<h2>Sign up with us to get more products.</h2>
+				<h4>Sign in or register with your email address.</h4>
+				<form class="form">
+					<label for="email">Email address</label>
+					<input type="email" id="email" />
+					<button class="user-btn">Continue</button>
+					<h5>Trouble signing in?</h5>
+					<h5>OR</h5>
+					<a href="http://" target="_blank" class="sign-in"
+						><i class="fab fa-apple"></i><span>Continue with apple</span></a
+					>
+					<a href="http://" target="_blank" class="sign-in"
+						><i class="fab fa-google"></i><span>Continue with Google</span></a
+					>
+					<a href="http://" target="_blank" class="sign-in"
+						><i class="fab fa-facebook"></i
+						><span>Continue with Facebook</span></a
+					>
+					<p>
+						By clicking Continue or Continue with Google, Facebook, or Apple,
+						you agree to TheoMart Terms of Use and Privacy Policy. TheoMart may
+						send you communications; you may change your preferences in your
+						account settings. We'll never post without your permission.
+					</p>
+				</form>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div>
+				<img src="images/default1.png" alt="" class="logo" />
+				<a href="#" class="top-link"><i class="fas fa-arrow-up"></i></a>
+			</div>
+			<hr />
+
+			<div class="grid-container">
+				<div class="sign-up">
+					<h1>DON'T MISS OUT</h1>
+					<p>sign up for the latest product release, and coupons.</p>
+					<form action="">
+						<label for="email">Email address</label>
+						<input
+							type="email"
+							id="email"
+							placeholder="Enter your email address"
+						/>
+						<button type="email" class="user-btn">SIGN UP</button>
+						<p>
+							By signing up, you agree to TheoMart terms and conditions and you
+							approve to receive emails from us.
+						</p>
+					</form>
+				</div>
+				<div class="flex">
+					<div class="">
+						<h3>About</h3>
+						<ul>
+							<li>Privacy Notes</li>
+							<li>Terms of use</li>
+							<li>Our company</li>
+						</ul>
+					</div>
+					<div class="">
+						<h3>Contact</h3>
+						<ul>
+							<li>Customer service</li>
+							<li>News Room Contacts</li>
+						</ul>
+					</div>
+					<div class="">
+						<h3>Connect</h3>
+						<ul>
+							<li>Privacy Notes</li>
+							<li>Terms of use</li>
+							<li>Our company</li>
+						</ul>
+					</div>
+				</div>
+				<div class="social">
+					<a
+						href="https://web.facebook.com/theophilus.boakye.102"
+						target="_blank"
+						><i class="fab fa-facebook"></i
+					></a>
+					<a href="https://twitter.com/tbyiadom1" target="_blank"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/theophilus-boakye-yiadom-142a071a3/"
+						target="_blank"
+						><i class="fab fa-linkedin"></i
+					></a>
+					<a href="https://github.com/THEO-184" target="_blank"
+						><i class="fab fa-github"></i
+					></a>
+				</div>
+			</div>
+			<div class="copyright">
+				<h3>Theophilus Boakye Yiadom</h3>
+				<span class="copyright-yr"></span>
+			</div>
+			<a href="#" class="top-link hide"><i class="fas fa-arrow-up"></i></a>
+		</footer>
+		<!-- contentful -->
+		<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
