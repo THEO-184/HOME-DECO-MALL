@@ -1,5 +1,7 @@
 # SHOPPING-SITE
-I made this  static shopping site with HTML, CSS and JAVASCRIPT.....no backend
+I made this  static shopping site with HTML, CSS and JAVASCRIPT.....no backend.
+
+https://theo-home-decor.netlify.app/
 
 The images used in this project was hosted on contenful.com. hence images are loaded from the inetrnet
 If images are not loading, uncomment the async await function of the product.json in the JS file to load images locally.
