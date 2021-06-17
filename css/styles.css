@@ -246,6 +246,18 @@ a {
 	padding: 1rem 1.5rem;
 }
 
+@media screen and (max-width: 568px) {
+	.like-overlay .user-info {
+		width: 90%;
+		margin-top: 20rem;
+	}
+
+	.closeUser-Btn {
+		top: 2.5rem;
+		right: -1.0rem;
+	}
+}
+
 .closeUser-Btn {
 	position: absolute;
 	top: 0;
