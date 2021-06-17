@@ -246,15 +246,20 @@ a {
 	padding: 1rem 1.5rem;
 }
 
-@media screen and (max-width: 568px) {
+@media only screen and (max-width: 768px) {
 	.like-overlay .user-info {
 		width: 90%;
 		margin-top: 20rem;
 	}
 
 	.closeUser-Btn {
-		top: -2.1rem;
-		right: 1.5rem;
+		top: 0.5rem;
+		right: 2.5rem;
+	}
+	
+	.closeUser-Btn .fas {
+	font-size: 1.7rem;
+	color: #000;
 	}
 }
 
