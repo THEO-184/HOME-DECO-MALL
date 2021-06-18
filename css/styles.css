@@ -248,31 +248,22 @@ a {
 
 @media only screen and (max-width: 768px) {
 	.like-overlay .user-info {
-		width: 90%;
-		margin-top: 20rem;
+		width: 80%;
 	}
 
-	.closeUser-Btn {
-		top: 0.5rem;
-		right: 2.5rem;
-	}
-	
-	.closeUser-Btn .fas {
-	font-size: 1.7rem;
-	color: #000;
-	}
 }
 
 .closeUser-Btn {
 	position: absolute;
-	top: 0;
-	right: -2rem;
+	top: 0rem;
+	right: 1rem;
 	cursor: pointer;
+	z-index: 110;
 }
 
 .closeUser-Btn .fas {
 	font-size: 1.7rem;
-	color: #fff;
+	color: #000;
 }
 
 .user-info h2,
