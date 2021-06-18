@@ -249,6 +249,7 @@ a {
 @media only screen and (max-width: 768px) {
 	.like-overlay .user-info {
 		width: 80%;
+		margin:20rem auto auto;
 	}
 
 }
